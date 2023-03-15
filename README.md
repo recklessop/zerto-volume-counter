@@ -1,6 +1,6 @@
 # zerto-volume-counter
 
-This python script counts the volumes in the /volumes API output json to give a total per VRA (including it's helper VRA volumes)
+These python and powershell scripts count the volumes in the /volumes API output json to give a total per VRA (including it's helper VRA volumes)
 
 Use the ZVM swagger interface to get the volumes API json data. 
 
