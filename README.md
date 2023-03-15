@@ -12,6 +12,6 @@ python3 parser.py jsonfile.json
 
 Expected output is:
 
-Total Volumes per VRA (Mirror + journal + scratch)
-vra_volumes{OwningVRA="192.168.50.52"} : 13
+Total Volumes per VRA (Mirror + journal + scratch) \n
+vra_volumes{OwningVRA="192.168.50.52"} : 13\n
 vra_volumes{OwningVRA="192.168.50.51"} : 14
