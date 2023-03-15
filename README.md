@@ -9,10 +9,12 @@ Save the data into a file like volumes.json
 then run the parser
 
 *Python3 Version:*
-'''python3 parser.py jsonfile.json'''
+
+python3 parser.py jsonfile.json
 
 *PowerShell Version*
-'''pwsh ./volumes-per-vra.ps1 ./volumes.json'''
+
+pwsh ./volumes-per-vra.ps1 ./volumes.json
 
 Expected output is:
 
