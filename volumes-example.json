@@ -1,0 +1,896 @@
+[
+    {
+      "VolumeType": "Journal",
+      "IsThinProvisioned": true,
+      "VolumeIdentifier": "scsi:0:4",
+      "Path": {
+        "Full": "[MGMT-Data-1] ZeRTO volumes/835_MGMT-Data-1_vm-43_history_192_168_50_50_log_volume.vmdk",
+        "Relative": "ZeRTO volumes/835_MGMT-Data-1_vm-43_history_192_168_50_50_log_volume.vmdk",
+        "FileName": "835_MGMT-Data-1_vm-43_history_192_168_50_50_log_volume.vmdk"
+      },
+      "Size": {
+        "UsedInBytes": 1091567616,
+        "ProvisionedInBytes": 17188257792
+      },
+      "Datastore": {
+        "Identifier": "5da9d183-f3f9-4ea9-bf46-eca5c06aec73.datastore-14",
+        "Name": "MGMT-Data-1"
+      },
+      "OwningVm": {
+        "Identifier": "5da9d183-f3f9-4ea9-bf46-eca5c06aec73.vm-178",
+        "Name": "Z-VRAH-192.168.50.52-817831"
+      },
+      "ProtectedVm": {
+        "Identifier": "5da9d183-f3f9-4ea9-bf46-eca5c06aec73.vm-43",
+        "Name": "ZVM Grafana"
+      },
+      "Vpg": {
+        "Identifier": "d6ff7c4e-19ac-4355-ac24-0ba02cfff385",
+        "Name": "Egon"
+      }
+    },
+    {
+      "VolumeType": "Journal",
+      "IsThinProvisioned": true,
+      "VolumeIdentifier": "scsi:0:5",
+      "Path": {
+        "Full": "[MGMT-Data-1] ZeRTO volumes/834_MGMT-Data-1_vm-47_history_192_168_50_50_log_volume.vmdk",
+        "Relative": "ZeRTO volumes/834_MGMT-Data-1_vm-47_history_192_168_50_50_log_volume.vmdk",
+        "FileName": "834_MGMT-Data-1_vm-47_history_192_168_50_50_log_volume.vmdk"
+      },
+      "Size": {
+        "UsedInBytes": 521142272,
+        "ProvisionedInBytes": 17188257792
+      },
+      "Datastore": {
+        "Identifier": "5da9d183-f3f9-4ea9-bf46-eca5c06aec73.datastore-14",
+        "Name": "MGMT-Data-1"
+      },
+      "OwningVm": {
+        "Identifier": "5da9d183-f3f9-4ea9-bf46-eca5c06aec73.vm-65",
+        "Name": "Z-VRAH-192.168.50.51-572916"
+      },
+      "ProtectedVm": {
+        "Identifier": "5da9d183-f3f9-4ea9-bf46-eca5c06aec73.vm-47",
+        "Name": "ZVM swagger getter"
+      },
+      "Vpg": {
+        "Identifier": "ec46bdd3-a361-41fc-aafc-a5cc250a3e7b",
+        "Name": "demo"
+      }
+    },
+    {
+      "VolumeType": "Journal",
+      "IsThinProvisioned": true,
+      "VolumeIdentifier": "scsi:0:1",
+      "Path": {
+        "Full": "[MGMT-Data-1] ZeRTO volumes/833_MGMT-Data-1_vm-18_history_192_168_50_50_log_volume.vmdk",
+        "Relative": "ZeRTO volumes/833_MGMT-Data-1_vm-18_history_192_168_50_50_log_volume.vmdk",
+        "FileName": "833_MGMT-Data-1_vm-18_history_192_168_50_50_log_volume.vmdk"
+      },
+      "Size": {
+        "UsedInBytes": 635437056,
+        "ProvisionedInBytes": 17188257792
+      },
+      "Datastore": {
+        "Identifier": "5da9d183-f3f9-4ea9-bf46-eca5c06aec73.datastore-14",
+        "Name": "MGMT-Data-1"
+      },
+      "OwningVm": {
+        "Identifier": "5da9d183-f3f9-4ea9-bf46-eca5c06aec73.vm-178",
+        "Name": "Z-VRAH-192.168.50.52-817831"
+      },
+      "ProtectedVm": {
+        "Identifier": "5da9d183-f3f9-4ea9-bf46-eca5c06aec73.vm-18",
+        "Name": "cmh-linux-1"
+      },
+      "Vpg": {
+        "Identifier": "009ffe61-27eb-4368-94d9-042a61d1344d",
+        "Name": "GLDR"
+      }
+    },
+    {
+      "VolumeType": "Journal",
+      "IsThinProvisioned": true,
+      "VolumeIdentifier": "scsi:0:3",
+      "Path": {
+        "Full": "[MGMT-Data-1] ZeRTO volumes/832_MGMT-Data-1_vm-64_history_192_168_50_50_log_volume.vmdk",
+        "Relative": "ZeRTO volumes/832_MGMT-Data-1_vm-64_history_192_168_50_50_log_volume.vmdk",
+        "FileName": "832_MGMT-Data-1_vm-64_history_192_168_50_50_log_volume.vmdk"
+      },
+      "Size": {
+        "UsedInBytes": 235929600,
+        "ProvisionedInBytes": 17188257792
+      },
+      "Datastore": {
+        "Identifier": "5da9d183-f3f9-4ea9-bf46-eca5c06aec73.datastore-14",
+        "Name": "MGMT-Data-1"
+      },
+      "OwningVm": {
+        "Identifier": "5da9d183-f3f9-4ea9-bf46-eca5c06aec73.vm-65",
+        "Name": "Z-VRAH-192.168.50.51-572916"
+      },
+      "ProtectedVm": {
+        "Identifier": "5da9d183-f3f9-4ea9-bf46-eca5c06aec73.vm-64",
+        "Name": "San Admin"
+      },
+      "Vpg": {
+        "Identifier": "ec46bdd3-a361-41fc-aafc-a5cc250a3e7b",
+        "Name": "demo"
+      }
+    },
+    {
+      "VolumeType": "Journal",
+      "IsThinProvisioned": true,
+      "VolumeIdentifier": "scsi:0:1",
+      "Path": {
+        "Full": "[MGMT-Data-1] ZeRTO volumes/831_MGMT-Data-1_vm-17_history_192_168_50_50_log_volume.vmdk",
+        "Relative": "ZeRTO volumes/831_MGMT-Data-1_vm-17_history_192_168_50_50_log_volume.vmdk",
+        "FileName": "831_MGMT-Data-1_vm-17_history_192_168_50_50_log_volume.vmdk"
+      },
+      "Size": {
+        "UsedInBytes": 4377804800,
+        "ProvisionedInBytes": 17188257792
+      },
+      "Datastore": {
+        "Identifier": "5da9d183-f3f9-4ea9-bf46-eca5c06aec73.datastore-14",
+        "Name": "MGMT-Data-1"
+      },
+      "OwningVm": {
+        "Identifier": "5da9d183-f3f9-4ea9-bf46-eca5c06aec73.vm-65",
+        "Name": "Z-VRAH-192.168.50.51-572916"
+      },
+      "ProtectedVm": {
+        "Identifier": "5da9d183-f3f9-4ea9-bf46-eca5c06aec73.vm-17",
+        "Name": "cmh-router"
+      },
+      "Vpg": {
+        "Identifier": "2582024d-19c0-4711-a9e9-362e9de3eb84",
+        "Name": "test"
+      }
+    },
+    {
+      "VolumeType": "Protected",
+      "IsThinProvisioned": true,
+      "VolumeIdentifier": "scsi:0:0",
+      "Path": {
+        "Full": "[MGMT-Data-1] ZVM Grafana/ZVM Grafana.vmdk",
+        "Relative": "ZVM Grafana/ZVM Grafana.vmdk",
+        "FileName": "ZVM Grafana.vmdk"
+      },
+      "Size": {
+        "UsedInBytes": 13632536576,
+        "ProvisionedInBytes": 53687091200
+      },
+      "Datastore": {
+        "Identifier": "5da9d183-f3f9-4ea9-bf46-eca5c06aec73.datastore-14",
+        "Name": "MGMT-Data-1"
+      },
+      "OwningVm": {
+        "Identifier": "5da9d183-f3f9-4ea9-bf46-eca5c06aec73.vm-43",
+        "Name": "ZVM Grafana"
+      },
+      "ProtectedVm": {
+        "Identifier": "5da9d183-f3f9-4ea9-bf46-eca5c06aec73.vm-43",
+        "Name": "ZVM Grafana"
+      },
+      "Vpg": {
+        "Identifier": "d6ff7c4e-19ac-4355-ac24-0ba02cfff385",
+        "Name": "Egon"
+      }
+    },
+    {
+      "VolumeType": "Protected",
+      "IsThinProvisioned": true,
+      "VolumeIdentifier": "scsi:0:0",
+      "Path": {
+        "Full": "[MGMT-Data-1] cmh-linux-1/cmh-linux-1.vmdk",
+        "Relative": "cmh-linux-1/cmh-linux-1.vmdk",
+        "FileName": "cmh-linux-1.vmdk"
+      },
+      "Size": {
+        "UsedInBytes": 40283144192,
+        "ProvisionedInBytes": 107374182400
+      },
+      "Datastore": {
+        "Identifier": "5da9d183-f3f9-4ea9-bf46-eca5c06aec73.datastore-14",
+        "Name": "MGMT-Data-1"
+      },
+      "OwningVm": {
+        "Identifier": "5da9d183-f3f9-4ea9-bf46-eca5c06aec73.vm-18",
+        "Name": "cmh-linux-1"
+      },
+      "ProtectedVm": {
+        "Identifier": "5da9d183-f3f9-4ea9-bf46-eca5c06aec73.vm-18",
+        "Name": "cmh-linux-1"
+      },
+      "Vpg": {
+        "Identifier": "009ffe61-27eb-4368-94d9-042a61d1344d",
+        "Name": "GLDR"
+      }
+    },
+    {
+      "VolumeType": "Protected",
+      "IsThinProvisioned": false,
+      "VolumeIdentifier": "scsi:0:1",
+      "Path": {
+        "Full": "[MGMT-Data-1] cmh-linux-1/cmh-linux-1_1.vmdk",
+        "Relative": "cmh-linux-1/cmh-linux-1_1.vmdk",
+        "FileName": "cmh-linux-1_1.vmdk"
+      },
+      "Size": {
+        "UsedInBytes": 17179869184,
+        "ProvisionedInBytes": 17179869184
+      },
+      "Datastore": {
+        "Identifier": "5da9d183-f3f9-4ea9-bf46-eca5c06aec73.datastore-14",
+        "Name": "MGMT-Data-1"
+      },
+      "OwningVm": {
+        "Identifier": "5da9d183-f3f9-4ea9-bf46-eca5c06aec73.vm-18",
+        "Name": "cmh-linux-1"
+      },
+      "ProtectedVm": {
+        "Identifier": "5da9d183-f3f9-4ea9-bf46-eca5c06aec73.vm-18",
+        "Name": "cmh-linux-1"
+      },
+      "Vpg": {
+        "Identifier": "009ffe61-27eb-4368-94d9-042a61d1344d",
+        "Name": "GLDR"
+      }
+    },
+    {
+      "VolumeType": "Protected",
+      "IsThinProvisioned": false,
+      "VolumeIdentifier": "scsi:0:0",
+      "Path": {
+        "Full": "[MGMT-Data-1] San Admin/San Admin.vmdk",
+        "Relative": "San Admin/San Admin.vmdk",
+        "FileName": "San Admin.vmdk"
+      },
+      "Size": {
+        "UsedInBytes": 96636764160,
+        "ProvisionedInBytes": 96636764160
+      },
+      "Datastore": {
+        "Identifier": "5da9d183-f3f9-4ea9-bf46-eca5c06aec73.datastore-14",
+        "Name": "MGMT-Data-1"
+      },
+      "OwningVm": {
+        "Identifier": "5da9d183-f3f9-4ea9-bf46-eca5c06aec73.vm-64",
+        "Name": "San Admin"
+      },
+      "ProtectedVm": {
+        "Identifier": "5da9d183-f3f9-4ea9-bf46-eca5c06aec73.vm-64",
+        "Name": "San Admin"
+      },
+      "Vpg": {
+        "Identifier": "ec46bdd3-a361-41fc-aafc-a5cc250a3e7b",
+        "Name": "demo"
+      }
+    },
+    {
+      "VolumeType": "Protected",
+      "IsThinProvisioned": true,
+      "VolumeIdentifier": "scsi:0:0",
+      "Path": {
+        "Full": "[MGMT-Data-1] ZVM swagger getter/ZVM swagger getter.vmdk",
+        "Relative": "ZVM swagger getter/ZVM swagger getter.vmdk",
+        "FileName": "ZVM swagger getter.vmdk"
+      },
+      "Size": {
+        "UsedInBytes": 12690915328,
+        "ProvisionedInBytes": 96636764160
+      },
+      "Datastore": {
+        "Identifier": "5da9d183-f3f9-4ea9-bf46-eca5c06aec73.datastore-14",
+        "Name": "MGMT-Data-1"
+      },
+      "OwningVm": {
+        "Identifier": "5da9d183-f3f9-4ea9-bf46-eca5c06aec73.vm-47",
+        "Name": "ZVM swagger getter"
+      },
+      "ProtectedVm": {
+        "Identifier": "5da9d183-f3f9-4ea9-bf46-eca5c06aec73.vm-47",
+        "Name": "ZVM swagger getter"
+      },
+      "Vpg": {
+        "Identifier": "ec46bdd3-a361-41fc-aafc-a5cc250a3e7b",
+        "Name": "demo"
+      }
+    },
+    {
+      "VolumeType": "Protected",
+      "IsThinProvisioned": false,
+      "VolumeIdentifier": "scsi:0:0",
+      "Path": {
+        "Full": "[MGMT-Data-1] cmh-router/cmh-router.vmdk",
+        "Relative": "cmh-router/cmh-router.vmdk",
+        "FileName": "cmh-router.vmdk"
+      },
+      "Size": {
+        "UsedInBytes": 32212254720,
+        "ProvisionedInBytes": 32212254720
+      },
+      "Datastore": {
+        "Identifier": "5da9d183-f3f9-4ea9-bf46-eca5c06aec73.datastore-14",
+        "Name": "MGMT-Data-1"
+      },
+      "OwningVm": {
+        "Identifier": "5da9d183-f3f9-4ea9-bf46-eca5c06aec73.vm-17",
+        "Name": "cmh-router"
+      },
+      "ProtectedVm": {
+        "Identifier": "5da9d183-f3f9-4ea9-bf46-eca5c06aec73.vm-17",
+        "Name": "cmh-router"
+      },
+      "Vpg": {
+        "Identifier": "2582024d-19c0-4711-a9e9-362e9de3eb84",
+        "Name": "test"
+      }
+    },
+    {
+      "VolumeType": "Appliance",
+      "IsThinProvisioned": false,
+      "VolumeIdentifier": "scsi:0:0",
+      "Path": {
+        "Full": "[MGMT-Data-1] Z-VRA-192.168.50.51_3/Z-VRA-192.168.50.51_1.vmdk",
+        "Relative": "Z-VRA-192.168.50.51_3/Z-VRA-192.168.50.51_1.vmdk",
+        "FileName": "Z-VRA-192.168.50.51_1.vmdk"
+      },
+      "Size": {
+        "UsedInBytes": 2147483648,
+        "ProvisionedInBytes": 2147483648
+      },
+      "Datastore": {
+        "Identifier": "5da9d183-f3f9-4ea9-bf46-eca5c06aec73.datastore-14",
+        "Name": "MGMT-Data-1"
+      },
+      "OwningVm": {
+        "Identifier": "5da9d183-f3f9-4ea9-bf46-eca5c06aec73.vm-60",
+        "Name": "Z-VRA-192.168.50.51"
+      },
+      "ProtectedVm": null,
+      "Vpg": null
+    },
+    {
+      "VolumeType": "Appliance",
+      "IsThinProvisioned": true,
+      "VolumeIdentifier": "scsi:1:0",
+      "Path": {
+        "Full": "[MGMT-Data-1] Z-VRA-192.168.50.51_3/Z-VRA-192.168.50.51.vmdk",
+        "Relative": "Z-VRA-192.168.50.51_3/Z-VRA-192.168.50.51.vmdk",
+        "FileName": "Z-VRA-192.168.50.51.vmdk"
+      },
+      "Size": {
+        "UsedInBytes": 1048576,
+        "ProvisionedInBytes": 1048576
+      },
+      "Datastore": {
+        "Identifier": "5da9d183-f3f9-4ea9-bf46-eca5c06aec73.datastore-14",
+        "Name": "MGMT-Data-1"
+      },
+      "OwningVm": {
+        "Identifier": "5da9d183-f3f9-4ea9-bf46-eca5c06aec73.vm-60",
+        "Name": "Z-VRA-192.168.50.51"
+      },
+      "ProtectedVm": null,
+      "Vpg": null
+    },
+    {
+      "VolumeType": "Appliance",
+      "IsThinProvisioned": false,
+      "VolumeIdentifier": "scsi:2:0",
+      "Path": {
+        "Full": "[MGMT-Data-1] Z-VRA-192.168.50.51_3/Z-VRA-192.168.50.51_3.vmdk",
+        "Relative": "Z-VRA-192.168.50.51_3/Z-VRA-192.168.50.51_3.vmdk",
+        "FileName": "Z-VRA-192.168.50.51_3.vmdk"
+      },
+      "Size": {
+        "UsedInBytes": 536870912,
+        "ProvisionedInBytes": 536870912
+      },
+      "Datastore": {
+        "Identifier": "5da9d183-f3f9-4ea9-bf46-eca5c06aec73.datastore-14",
+        "Name": "MGMT-Data-1"
+      },
+      "OwningVm": {
+        "Identifier": "5da9d183-f3f9-4ea9-bf46-eca5c06aec73.vm-60",
+        "Name": "Z-VRA-192.168.50.51"
+      },
+      "ProtectedVm": null,
+      "Vpg": null
+    },
+    {
+      "VolumeType": "Appliance",
+      "IsThinProvisioned": false,
+      "VolumeIdentifier": "scsi:3:0",
+      "Path": {
+        "Full": "[MGMT-Data-1] Z-VRA-192.168.50.51_3/Z-VRA-192.168.50.51_2.vmdk",
+        "Relative": "Z-VRA-192.168.50.51_3/Z-VRA-192.168.50.51_2.vmdk",
+        "FileName": "Z-VRA-192.168.50.51_2.vmdk"
+      },
+      "Size": {
+        "UsedInBytes": 10737418240,
+        "ProvisionedInBytes": 10737418240
+      },
+      "Datastore": {
+        "Identifier": "5da9d183-f3f9-4ea9-bf46-eca5c06aec73.datastore-14",
+        "Name": "MGMT-Data-1"
+      },
+      "OwningVm": {
+        "Identifier": "5da9d183-f3f9-4ea9-bf46-eca5c06aec73.vm-60",
+        "Name": "Z-VRA-192.168.50.51"
+      },
+      "ProtectedVm": null,
+      "Vpg": null
+    },
+    {
+      "VolumeType": "Appliance",
+      "IsThinProvisioned": false,
+      "VolumeIdentifier": "scsi:0:0",
+      "Path": {
+        "Full": "[MGMT-Data-1] Z-VRAH-192.168.50.51-572916/Z-VRAH-192.168.50.51-572916_1.vmdk",
+        "Relative": "Z-VRAH-192.168.50.51-572916/Z-VRAH-192.168.50.51-572916_1.vmdk",
+        "FileName": "Z-VRAH-192.168.50.51-572916_1.vmdk"
+      },
+      "Size": {
+        "UsedInBytes": 1048576,
+        "ProvisionedInBytes": 1048576
+      },
+      "Datastore": {
+        "Identifier": "5da9d183-f3f9-4ea9-bf46-eca5c06aec73.datastore-14",
+        "Name": "MGMT-Data-1"
+      },
+      "OwningVm": {
+        "Identifier": "5da9d183-f3f9-4ea9-bf46-eca5c06aec73.vm-65",
+        "Name": "Z-VRAH-192.168.50.51-572916"
+      },
+      "ProtectedVm": null,
+      "Vpg": null
+    },
+    {
+      "VolumeType": "Appliance",
+      "IsThinProvisioned": false,
+      "VolumeIdentifier": "scsi:1:0",
+      "Path": {
+        "Full": "[MGMT-Data-1] Z-VRAH-192.168.50.51-572916/Z-VRAH-192.168.50.51-572916.vmdk",
+        "Relative": "Z-VRAH-192.168.50.51-572916/Z-VRAH-192.168.50.51-572916.vmdk",
+        "FileName": "Z-VRAH-192.168.50.51-572916.vmdk"
+      },
+      "Size": {
+        "UsedInBytes": 1048576,
+        "ProvisionedInBytes": 1048576
+      },
+      "Datastore": {
+        "Identifier": "5da9d183-f3f9-4ea9-bf46-eca5c06aec73.datastore-14",
+        "Name": "MGMT-Data-1"
+      },
+      "OwningVm": {
+        "Identifier": "5da9d183-f3f9-4ea9-bf46-eca5c06aec73.vm-65",
+        "Name": "Z-VRAH-192.168.50.51-572916"
+      },
+      "ProtectedVm": null,
+      "Vpg": null
+    },
+    {
+      "VolumeType": "Appliance",
+      "IsThinProvisioned": false,
+      "VolumeIdentifier": "scsi:2:0",
+      "Path": {
+        "Full": "[MGMT-Data-1] Z-VRAH-192.168.50.51-572916/Z-VRAH-192.168.50.51-572916_3.vmdk",
+        "Relative": "Z-VRAH-192.168.50.51-572916/Z-VRAH-192.168.50.51-572916_3.vmdk",
+        "FileName": "Z-VRAH-192.168.50.51-572916_3.vmdk"
+      },
+      "Size": {
+        "UsedInBytes": 1048576,
+        "ProvisionedInBytes": 1048576
+      },
+      "Datastore": {
+        "Identifier": "5da9d183-f3f9-4ea9-bf46-eca5c06aec73.datastore-14",
+        "Name": "MGMT-Data-1"
+      },
+      "OwningVm": {
+        "Identifier": "5da9d183-f3f9-4ea9-bf46-eca5c06aec73.vm-65",
+        "Name": "Z-VRAH-192.168.50.51-572916"
+      },
+      "ProtectedVm": null,
+      "Vpg": null
+    },
+    {
+      "VolumeType": "Appliance",
+      "IsThinProvisioned": false,
+      "VolumeIdentifier": "scsi:3:0",
+      "Path": {
+        "Full": "[MGMT-Data-1] Z-VRAH-192.168.50.51-572916/Z-VRAH-192.168.50.51-572916_2.vmdk",
+        "Relative": "Z-VRAH-192.168.50.51-572916/Z-VRAH-192.168.50.51-572916_2.vmdk",
+        "FileName": "Z-VRAH-192.168.50.51-572916_2.vmdk"
+      },
+      "Size": {
+        "UsedInBytes": 1048576,
+        "ProvisionedInBytes": 1048576
+      },
+      "Datastore": {
+        "Identifier": "5da9d183-f3f9-4ea9-bf46-eca5c06aec73.datastore-14",
+        "Name": "MGMT-Data-1"
+      },
+      "OwningVm": {
+        "Identifier": "5da9d183-f3f9-4ea9-bf46-eca5c06aec73.vm-65",
+        "Name": "Z-VRAH-192.168.50.51-572916"
+      },
+      "ProtectedVm": null,
+      "Vpg": null
+    },
+    {
+      "VolumeType": "Appliance",
+      "IsThinProvisioned": false,
+      "VolumeIdentifier": "scsi:0:0",
+      "Path": {
+        "Full": "[MGMT-Data-1] Z-VRA-192.168.50.52_1/Z-VRA-192.168.50.52_1.vmdk",
+        "Relative": "Z-VRA-192.168.50.52_1/Z-VRA-192.168.50.52_1.vmdk",
+        "FileName": "Z-VRA-192.168.50.52_1.vmdk"
+      },
+      "Size": {
+        "UsedInBytes": 2147483648,
+        "ProvisionedInBytes": 2147483648
+      },
+      "Datastore": {
+        "Identifier": "5da9d183-f3f9-4ea9-bf46-eca5c06aec73.datastore-14",
+        "Name": "MGMT-Data-1"
+      },
+      "OwningVm": {
+        "Identifier": "5da9d183-f3f9-4ea9-bf46-eca5c06aec73.vm-61",
+        "Name": "Z-VRA-192.168.50.52"
+      },
+      "ProtectedVm": null,
+      "Vpg": null
+    },
+    {
+      "VolumeType": "Appliance",
+      "IsThinProvisioned": true,
+      "VolumeIdentifier": "scsi:1:0",
+      "Path": {
+        "Full": "[MGMT-Data-1] Z-VRA-192.168.50.52_1/Z-VRA-192.168.50.52.vmdk",
+        "Relative": "Z-VRA-192.168.50.52_1/Z-VRA-192.168.50.52.vmdk",
+        "FileName": "Z-VRA-192.168.50.52.vmdk"
+      },
+      "Size": {
+        "UsedInBytes": 1048576,
+        "ProvisionedInBytes": 1048576
+      },
+      "Datastore": {
+        "Identifier": "5da9d183-f3f9-4ea9-bf46-eca5c06aec73.datastore-14",
+        "Name": "MGMT-Data-1"
+      },
+      "OwningVm": {
+        "Identifier": "5da9d183-f3f9-4ea9-bf46-eca5c06aec73.vm-61",
+        "Name": "Z-VRA-192.168.50.52"
+      },
+      "ProtectedVm": null,
+      "Vpg": null
+    },
+    {
+      "VolumeType": "Appliance",
+      "IsThinProvisioned": false,
+      "VolumeIdentifier": "scsi:2:0",
+      "Path": {
+        "Full": "[MGMT-Data-1] Z-VRA-192.168.50.52_1/Z-VRA-192.168.50.52_3.vmdk",
+        "Relative": "Z-VRA-192.168.50.52_1/Z-VRA-192.168.50.52_3.vmdk",
+        "FileName": "Z-VRA-192.168.50.52_3.vmdk"
+      },
+      "Size": {
+        "UsedInBytes": 536870912,
+        "ProvisionedInBytes": 536870912
+      },
+      "Datastore": {
+        "Identifier": "5da9d183-f3f9-4ea9-bf46-eca5c06aec73.datastore-14",
+        "Name": "MGMT-Data-1"
+      },
+      "OwningVm": {
+        "Identifier": "5da9d183-f3f9-4ea9-bf46-eca5c06aec73.vm-61",
+        "Name": "Z-VRA-192.168.50.52"
+      },
+      "ProtectedVm": null,
+      "Vpg": null
+    },
+    {
+      "VolumeType": "Appliance",
+      "IsThinProvisioned": false,
+      "VolumeIdentifier": "scsi:3:0",
+      "Path": {
+        "Full": "[MGMT-Data-1] Z-VRA-192.168.50.52_1/Z-VRA-192.168.50.52_2.vmdk",
+        "Relative": "Z-VRA-192.168.50.52_1/Z-VRA-192.168.50.52_2.vmdk",
+        "FileName": "Z-VRA-192.168.50.52_2.vmdk"
+      },
+      "Size": {
+        "UsedInBytes": 10737418240,
+        "ProvisionedInBytes": 10737418240
+      },
+      "Datastore": {
+        "Identifier": "5da9d183-f3f9-4ea9-bf46-eca5c06aec73.datastore-14",
+        "Name": "MGMT-Data-1"
+      },
+      "OwningVm": {
+        "Identifier": "5da9d183-f3f9-4ea9-bf46-eca5c06aec73.vm-61",
+        "Name": "Z-VRA-192.168.50.52"
+      },
+      "ProtectedVm": null,
+      "Vpg": null
+    },
+    {
+      "VolumeType": "Appliance",
+      "IsThinProvisioned": false,
+      "VolumeIdentifier": "scsi:0:0",
+      "Path": {
+        "Full": "[MGMT-Data-1] Z-VRAH-192.168.50.52-817831/Z-VRAH-192.168.50.52-817831_1.vmdk",
+        "Relative": "Z-VRAH-192.168.50.52-817831/Z-VRAH-192.168.50.52-817831_1.vmdk",
+        "FileName": "Z-VRAH-192.168.50.52-817831_1.vmdk"
+      },
+      "Size": {
+        "UsedInBytes": 1048576,
+        "ProvisionedInBytes": 1048576
+      },
+      "Datastore": {
+        "Identifier": "5da9d183-f3f9-4ea9-bf46-eca5c06aec73.datastore-14",
+        "Name": "MGMT-Data-1"
+      },
+      "OwningVm": {
+        "Identifier": "5da9d183-f3f9-4ea9-bf46-eca5c06aec73.vm-178",
+        "Name": "Z-VRAH-192.168.50.52-817831"
+      },
+      "ProtectedVm": null,
+      "Vpg": null
+    },
+    {
+      "VolumeType": "Appliance",
+      "IsThinProvisioned": false,
+      "VolumeIdentifier": "scsi:1:0",
+      "Path": {
+        "Full": "[MGMT-Data-1] Z-VRAH-192.168.50.52-817831/Z-VRAH-192.168.50.52-817831.vmdk",
+        "Relative": "Z-VRAH-192.168.50.52-817831/Z-VRAH-192.168.50.52-817831.vmdk",
+        "FileName": "Z-VRAH-192.168.50.52-817831.vmdk"
+      },
+      "Size": {
+        "UsedInBytes": 1048576,
+        "ProvisionedInBytes": 1048576
+      },
+      "Datastore": {
+        "Identifier": "5da9d183-f3f9-4ea9-bf46-eca5c06aec73.datastore-14",
+        "Name": "MGMT-Data-1"
+      },
+      "OwningVm": {
+        "Identifier": "5da9d183-f3f9-4ea9-bf46-eca5c06aec73.vm-178",
+        "Name": "Z-VRAH-192.168.50.52-817831"
+      },
+      "ProtectedVm": null,
+      "Vpg": null
+    },
+    {
+      "VolumeType": "Appliance",
+      "IsThinProvisioned": false,
+      "VolumeIdentifier": "scsi:2:0",
+      "Path": {
+        "Full": "[MGMT-Data-1] Z-VRAH-192.168.50.52-817831/Z-VRAH-192.168.50.52-817831_3.vmdk",
+        "Relative": "Z-VRAH-192.168.50.52-817831/Z-VRAH-192.168.50.52-817831_3.vmdk",
+        "FileName": "Z-VRAH-192.168.50.52-817831_3.vmdk"
+      },
+      "Size": {
+        "UsedInBytes": 1048576,
+        "ProvisionedInBytes": 1048576
+      },
+      "Datastore": {
+        "Identifier": "5da9d183-f3f9-4ea9-bf46-eca5c06aec73.datastore-14",
+        "Name": "MGMT-Data-1"
+      },
+      "OwningVm": {
+        "Identifier": "5da9d183-f3f9-4ea9-bf46-eca5c06aec73.vm-178",
+        "Name": "Z-VRAH-192.168.50.52-817831"
+      },
+      "ProtectedVm": null,
+      "Vpg": null
+    },
+    {
+      "VolumeType": "Appliance",
+      "IsThinProvisioned": false,
+      "VolumeIdentifier": "scsi:3:0",
+      "Path": {
+        "Full": "[MGMT-Data-1] Z-VRAH-192.168.50.52-817831/Z-VRAH-192.168.50.52-817831_2.vmdk",
+        "Relative": "Z-VRAH-192.168.50.52-817831/Z-VRAH-192.168.50.52-817831_2.vmdk",
+        "FileName": "Z-VRAH-192.168.50.52-817831_2.vmdk"
+      },
+      "Size": {
+        "UsedInBytes": 1048576,
+        "ProvisionedInBytes": 1048576
+      },
+      "Datastore": {
+        "Identifier": "5da9d183-f3f9-4ea9-bf46-eca5c06aec73.datastore-14",
+        "Name": "MGMT-Data-1"
+      },
+      "OwningVm": {
+        "Identifier": "5da9d183-f3f9-4ea9-bf46-eca5c06aec73.vm-178",
+        "Name": "Z-VRAH-192.168.50.52-817831"
+      },
+      "ProtectedVm": null,
+      "Vpg": null
+    },
+    {
+      "VolumeType": "Recovery",
+      "IsThinProvisioned": true,
+      "VolumeIdentifier": "scsi:0:5",
+      "Path": {
+        "Full": "[MGMT-Data-1] Z-VRA-192.168.50.52/21464c43/vm43/ZVM Grafana.vmdk",
+        "Relative": "Z-VRA-192.168.50.52/21464c43/vm43/ZVM Grafana.vmdk",
+        "FileName": "ZVM Grafana.vmdk"
+      },
+      "Size": {
+        "UsedInBytes": 12712935424,
+        "ProvisionedInBytes": 53687091200
+      },
+      "Datastore": {
+        "Identifier": "5da9d183-f3f9-4ea9-bf46-eca5c06aec73.datastore-14",
+        "Name": "MGMT-Data-1"
+      },
+      "OwningVm": {
+        "Identifier": "5da9d183-f3f9-4ea9-bf46-eca5c06aec73.vm-178",
+        "Name": "Z-VRAH-192.168.50.52-817831"
+      },
+      "ProtectedVm": {
+        "Identifier": "5da9d183-f3f9-4ea9-bf46-eca5c06aec73.vm-43",
+        "Name": "ZVM Grafana"
+      },
+      "Vpg": {
+        "Identifier": "d6ff7c4e-19ac-4355-ac24-0ba02cfff385",
+        "Name": "Egon"
+      }
+    },
+    {
+      "VolumeType": "Recovery",
+      "IsThinProvisioned": true,
+      "VolumeIdentifier": "scsi:0:3",
+      "Path": {
+        "Full": "[MGMT-Data-1] Z-VRA-192.168.50.52/21464c43/vm18/cmh-linux-1 (1)/cmh-linux-1.vmdk",
+        "Relative": "Z-VRA-192.168.50.52/21464c43/vm18/cmh-linux-1 (1)/cmh-linux-1.vmdk",
+        "FileName": "cmh-linux-1.vmdk"
+      },
+      "Size": {
+        "UsedInBytes": 27437039616,
+        "ProvisionedInBytes": 107374182400
+      },
+      "Datastore": {
+        "Identifier": "5da9d183-f3f9-4ea9-bf46-eca5c06aec73.datastore-14",
+        "Name": "MGMT-Data-1"
+      },
+      "OwningVm": {
+        "Identifier": "5da9d183-f3f9-4ea9-bf46-eca5c06aec73.vm-178",
+        "Name": "Z-VRAH-192.168.50.52-817831"
+      },
+      "ProtectedVm": {
+        "Identifier": "5da9d183-f3f9-4ea9-bf46-eca5c06aec73.vm-18",
+        "Name": "cmh-linux-1"
+      },
+      "Vpg": {
+        "Identifier": "009ffe61-27eb-4368-94d9-042a61d1344d",
+        "Name": "GLDR"
+      }
+    },
+    {
+      "VolumeType": "Recovery",
+      "IsThinProvisioned": false,
+      "VolumeIdentifier": "scsi:0:2",
+      "Path": {
+        "Full": "[MGMT-Data-1] Z-VRA-192.168.50.52/21464c43/vm18/cmh-linux-1_1 (1)/cmh-linux-1_1.vmdk",
+        "Relative": "Z-VRA-192.168.50.52/21464c43/vm18/cmh-linux-1_1 (1)/cmh-linux-1_1.vmdk",
+        "FileName": "cmh-linux-1_1.vmdk"
+      },
+      "Size": {
+        "UsedInBytes": 17179869184,
+        "ProvisionedInBytes": 17179869184
+      },
+      "Datastore": {
+        "Identifier": "5da9d183-f3f9-4ea9-bf46-eca5c06aec73.datastore-14",
+        "Name": "MGMT-Data-1"
+      },
+      "OwningVm": {
+        "Identifier": "5da9d183-f3f9-4ea9-bf46-eca5c06aec73.vm-178",
+        "Name": "Z-VRAH-192.168.50.52-817831"
+      },
+      "ProtectedVm": {
+        "Identifier": "5da9d183-f3f9-4ea9-bf46-eca5c06aec73.vm-18",
+        "Name": "cmh-linux-1"
+      },
+      "Vpg": {
+        "Identifier": "009ffe61-27eb-4368-94d9-042a61d1344d",
+        "Name": "GLDR"
+      }
+    },
+    {
+      "VolumeType": "Recovery",
+      "IsThinProvisioned": true,
+      "VolumeIdentifier": "scsi:0:4",
+      "Path": {
+        "Full": "[MGMT-Data-1] Z-VRA-192.168.50.51/21464c43/vm64/San Admin.vmdk",
+        "Relative": "Z-VRA-192.168.50.51/21464c43/vm64/San Admin.vmdk",
+        "FileName": "San Admin.vmdk"
+      },
+      "Size": {
+        "UsedInBytes": 11609833472,
+        "ProvisionedInBytes": 96636764160
+      },
+      "Datastore": {
+        "Identifier": "5da9d183-f3f9-4ea9-bf46-eca5c06aec73.datastore-14",
+        "Name": "MGMT-Data-1"
+      },
+      "OwningVm": {
+        "Identifier": "5da9d183-f3f9-4ea9-bf46-eca5c06aec73.vm-65",
+        "Name": "Z-VRAH-192.168.50.51-572916"
+      },
+      "ProtectedVm": {
+        "Identifier": "5da9d183-f3f9-4ea9-bf46-eca5c06aec73.vm-64",
+        "Name": "San Admin"
+      },
+      "Vpg": {
+        "Identifier": "ec46bdd3-a361-41fc-aafc-a5cc250a3e7b",
+        "Name": "demo"
+      }
+    },
+    {
+      "VolumeType": "Recovery",
+      "IsThinProvisioned": true,
+      "VolumeIdentifier": "scsi:0:6",
+      "Path": {
+        "Full": "[MGMT-Data-1] Z-VRA-192.168.50.51/21464c43/vm47/ZVM swagger getter.vmdk",
+        "Relative": "Z-VRA-192.168.50.51/21464c43/vm47/ZVM swagger getter.vmdk",
+        "FileName": "ZVM swagger getter.vmdk"
+      },
+      "Size": {
+        "UsedInBytes": 12974030848,
+        "ProvisionedInBytes": 96636764160
+      },
+      "Datastore": {
+        "Identifier": "5da9d183-f3f9-4ea9-bf46-eca5c06aec73.datastore-14",
+        "Name": "MGMT-Data-1"
+      },
+      "OwningVm": {
+        "Identifier": "5da9d183-f3f9-4ea9-bf46-eca5c06aec73.vm-65",
+        "Name": "Z-VRAH-192.168.50.51-572916"
+      },
+      "ProtectedVm": {
+        "Identifier": "5da9d183-f3f9-4ea9-bf46-eca5c06aec73.vm-47",
+        "Name": "ZVM swagger getter"
+      },
+      "Vpg": {
+        "Identifier": "ec46bdd3-a361-41fc-aafc-a5cc250a3e7b",
+        "Name": "demo"
+      }
+    },
+    {
+      "VolumeType": "Recovery",
+      "IsThinProvisioned": true,
+      "VolumeIdentifier": "scsi:0:2",
+      "Path": {
+        "Full": "[MGMT-Data-1] Z-VRA-192.168.50.51/21464c43/vm17/cmh-router.vmdk",
+        "Relative": "Z-VRA-192.168.50.51/21464c43/vm17/cmh-router.vmdk",
+        "FileName": "cmh-router.vmdk"
+      },
+      "Size": {
+        "UsedInBytes": 23242735616,
+        "ProvisionedInBytes": 32212254720
+      },
+      "Datastore": {
+        "Identifier": "5da9d183-f3f9-4ea9-bf46-eca5c06aec73.datastore-14",
+        "Name": "MGMT-Data-1"
+      },
+      "OwningVm": {
+        "Identifier": "5da9d183-f3f9-4ea9-bf46-eca5c06aec73.vm-65",
+        "Name": "Z-VRAH-192.168.50.51-572916"
+      },
+      "ProtectedVm": {
+        "Identifier": "5da9d183-f3f9-4ea9-bf46-eca5c06aec73.vm-17",
+        "Name": "cmh-router"
+      },
+      "Vpg": {
+        "Identifier": "2582024d-19c0-4711-a9e9-362e9de3eb84",
+        "Name": "test"
+      }
+    }
+  ]
