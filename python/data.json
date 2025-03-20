@@ -1,0 +1,960 @@
+[
+  {
+    "VolumeType": "Journal",
+    "IsThinProvisioned": true,
+    "VolumeIdentifier": "scsi:0:1",
+    "Path": {
+      "Full": "[SS-VMFS-02] ZeRTO volumes/405_SS-VMFS-02_vm-1045_history_192_168_50_20_log_volume.vmdk",
+      "Relative": "ZeRTO volumes/405_SS-VMFS-02_vm-1045_history_192_168_50_20_log_volume.vmdk",
+      "FileName": "405_SS-VMFS-02_vm-1045_history_192_168_50_20_log_volume.vmdk"
+    },
+    "Size": {
+      "UsedInBytes": 101711872,
+      "ProvisionedInBytes": 17188257792
+    },
+    "Datastore": {
+      "Identifier": "f7f0835d-a5e4-46fa-b710-4bc32076e820.datastore-1020",
+      "Name": "SS-VMFS-02"
+    },
+    "OwningVm": {
+      "Identifier": "f7f0835d-a5e4-46fa-b710-4bc32076e820.vm-2003",
+      "Name": "Z-VRAH-192.168.50.22-521503"
+    },
+    "ProtectedVm": {
+      "Identifier": "f7f0835d-a5e4-46fa-b710-4bc32076e820.vm-1045",
+      "Name": "VM-Win-02"
+    },
+    "Vpg": {
+      "Identifier": "46de9fbc-aa6b-444e-93b6-f0b9b774fcdd",
+      "Name": "testvpg"
+    },
+    "StoragePolicy": {
+      "Identifier": "None",
+      "Name": "Datastore Default"
+    }
+  },
+  {
+    "VolumeType": "Journal",
+    "IsThinProvisioned": true,
+    "VolumeIdentifier": "scsi:0:3",
+    "Path": {
+      "Full": "[SS-VMFS-02] ZeRTO volumes/408_SS-VMFS-02_vm-1039_history_192_168_50_20_log_volume.vmdk",
+      "Relative": "ZeRTO volumes/408_SS-VMFS-02_vm-1039_history_192_168_50_20_log_volume.vmdk",
+      "FileName": "408_SS-VMFS-02_vm-1039_history_192_168_50_20_log_volume.vmdk"
+    },
+    "Size": {
+      "UsedInBytes": 2751463424,
+      "ProvisionedInBytes": 17188257792
+    },
+    "Datastore": {
+      "Identifier": "f7f0835d-a5e4-46fa-b710-4bc32076e820.datastore-1020",
+      "Name": "SS-VMFS-02"
+    },
+    "OwningVm": {
+      "Identifier": "f7f0835d-a5e4-46fa-b710-4bc32076e820.vm-2003",
+      "Name": "Z-VRAH-192.168.50.22-521503"
+    },
+    "ProtectedVm": {
+      "Identifier": "f7f0835d-a5e4-46fa-b710-4bc32076e820.vm-1039",
+      "Name": "win2019-1"
+    },
+    "Vpg": {
+      "Identifier": "ea1ec7bc-fb68-481d-a4b7-2fdcb58c0237",
+      "Name": "Local Test"
+    },
+    "StoragePolicy": {
+      "Identifier": "None",
+      "Name": "Datastore Default"
+    }
+  },
+  {
+    "VolumeType": "Journal",
+    "IsThinProvisioned": true,
+    "VolumeIdentifier": "scsi:0:5",
+    "Path": {
+      "Full": "[SS-VMFS-01] ZeRTO volumes/411_SS-VMFS-01_vm-2033_history_192_168_50_20_log_volume.vmdk",
+      "Relative": "ZeRTO volumes/411_SS-VMFS-01_vm-2033_history_192_168_50_20_log_volume.vmdk",
+      "FileName": "411_SS-VMFS-01_vm-2033_history_192_168_50_20_log_volume.vmdk"
+    },
+    "Size": {
+      "UsedInBytes": 2167406592,
+      "ProvisionedInBytes": 17188257792
+    },
+    "Datastore": {
+      "Identifier": "f7f0835d-a5e4-46fa-b710-4bc32076e820.datastore-1019",
+      "Name": "SS-VMFS-01"
+    },
+    "OwningVm": {
+      "Identifier": "f7f0835d-a5e4-46fa-b710-4bc32076e820.vm-2003",
+      "Name": "Z-VRAH-192.168.50.22-521503"
+    },
+    "ProtectedVm": {
+      "Identifier": "f7f0835d-a5e4-46fa-b710-4bc32076e820.vm-2033",
+      "Name": "ad1(1)"
+    },
+    "Vpg": {
+      "Identifier": "58f5285d-add8-486c-ba8b-007e8a66eae7",
+      "Name": "local"
+    },
+    "StoragePolicy": {
+      "Identifier": "None",
+      "Name": "Datastore Default"
+    }
+  },
+  {
+    "VolumeType": "Protected",
+    "IsThinProvisioned": false,
+    "VolumeIdentifier": "scsi:0:0",
+    "Path": {
+      "Full": "[SS-VMFS-00] VM-Win-02/VM-Win-02_3.vmdk",
+      "Relative": "VM-Win-02/VM-Win-02_3.vmdk",
+      "FileName": "VM-Win-02_3.vmdk"
+    },
+    "Size": {
+      "UsedInBytes": 96636764160,
+      "ProvisionedInBytes": 96636764160
+    },
+    "Datastore": {
+      "Identifier": "f7f0835d-a5e4-46fa-b710-4bc32076e820.datastore-1018",
+      "Name": "SS-VMFS-00"
+    },
+    "OwningVm": {
+      "Identifier": "f7f0835d-a5e4-46fa-b710-4bc32076e820.vm-1045",
+      "Name": "VM-Win-02"
+    },
+    "ProtectedVm": {
+      "Identifier": "f7f0835d-a5e4-46fa-b710-4bc32076e820.vm-1045",
+      "Name": "VM-Win-02"
+    },
+    "Vpg": {
+      "Identifier": "46de9fbc-aa6b-444e-93b6-f0b9b774fcdd",
+      "Name": "testvpg"
+    },
+    "StoragePolicy": {
+      "Identifier": "None",
+      "Name": "Datastore Default"
+    }
+  },
+  {
+    "VolumeType": "Protected",
+    "IsThinProvisioned": true,
+    "VolumeIdentifier": "scsi:0:0",
+    "Path": {
+      "Full": "[SS-VMFS-01] ad1(1)/ad1.vmdk",
+      "Relative": "ad1(1)/ad1.vmdk",
+      "FileName": "ad1.vmdk"
+    },
+    "Size": {
+      "UsedInBytes": 31034703872,
+      "ProvisionedInBytes": 96636764160
+    },
+    "Datastore": {
+      "Identifier": "f7f0835d-a5e4-46fa-b710-4bc32076e820.datastore-1019",
+      "Name": "SS-VMFS-01"
+    },
+    "OwningVm": {
+      "Identifier": "f7f0835d-a5e4-46fa-b710-4bc32076e820.vm-2033",
+      "Name": "ad1(1)"
+    },
+    "ProtectedVm": {
+      "Identifier": "f7f0835d-a5e4-46fa-b710-4bc32076e820.vm-2033",
+      "Name": "ad1(1)"
+    },
+    "Vpg": {
+      "Identifier": "58f5285d-add8-486c-ba8b-007e8a66eae7",
+      "Name": "local"
+    },
+    "StoragePolicy": {
+      "Identifier": "None",
+      "Name": "Datastore Default"
+    }
+  },
+  {
+    "VolumeType": "Protected",
+    "IsThinProvisioned": true,
+    "VolumeIdentifier": "scsi:0:1",
+    "Path": {
+      "Full": "[SS-VMFS-01] ad1(1)/ad1_1.vmdk",
+      "Relative": "ad1(1)/ad1_1.vmdk",
+      "FileName": "ad1_1.vmdk"
+    },
+    "Size": {
+      "UsedInBytes": 1048576,
+      "ProvisionedInBytes": 10485760
+    },
+    "Datastore": {
+      "Identifier": "f7f0835d-a5e4-46fa-b710-4bc32076e820.datastore-1019",
+      "Name": "SS-VMFS-01"
+    },
+    "OwningVm": {
+      "Identifier": "f7f0835d-a5e4-46fa-b710-4bc32076e820.vm-2033",
+      "Name": "ad1(1)"
+    },
+    "ProtectedVm": {
+      "Identifier": "f7f0835d-a5e4-46fa-b710-4bc32076e820.vm-2033",
+      "Name": "ad1(1)"
+    },
+    "Vpg": {
+      "Identifier": "58f5285d-add8-486c-ba8b-007e8a66eae7",
+      "Name": "local"
+    },
+    "StoragePolicy": {
+      "Identifier": "None",
+      "Name": "Datastore Default"
+    }
+  },
+  {
+    "VolumeType": "Protected",
+    "IsThinProvisioned": false,
+    "VolumeIdentifier": "scsi:0:0",
+    "Path": {
+      "Full": "[SS-VMFS-02] LVM2/LVM2.vmdk",
+      "Relative": "LVM2/LVM2.vmdk",
+      "FileName": "LVM2.vmdk"
+    },
+    "Size": {
+      "UsedInBytes": 17179869184,
+      "ProvisionedInBytes": 17179869184
+    },
+    "Datastore": {
+      "Identifier": "f7f0835d-a5e4-46fa-b710-4bc32076e820.datastore-1020",
+      "Name": "SS-VMFS-02"
+    },
+    "OwningVm": {
+      "Identifier": "f7f0835d-a5e4-46fa-b710-4bc32076e820.vm-1038",
+      "Name": "LVM2"
+    },
+    "ProtectedVm": {
+      "Identifier": "f7f0835d-a5e4-46fa-b710-4bc32076e820.vm-1038",
+      "Name": "LVM2"
+    },
+    "Vpg": {
+      "Identifier": "712a6cc8-a3fe-478c-a874-2eaff93c6adc",
+      "Name": "To-Azure"
+    },
+    "StoragePolicy": {
+      "Identifier": "None",
+      "Name": "Datastore Default"
+    }
+  },
+  {
+    "VolumeType": "Protected",
+    "IsThinProvisioned": false,
+    "VolumeIdentifier": "scsi:0:0",
+    "Path": {
+      "Full": "[SS-VMFS-03] vm33/vm33.vmdk",
+      "Relative": "vm33/vm33.vmdk",
+      "FileName": "vm33.vmdk"
+    },
+    "Size": {
+      "UsedInBytes": 17179869184,
+      "ProvisionedInBytes": 17179869184
+    },
+    "Datastore": {
+      "Identifier": "f7f0835d-a5e4-46fa-b710-4bc32076e820.datastore-1021",
+      "Name": "SS-VMFS-03"
+    },
+    "OwningVm": {
+      "Identifier": "f7f0835d-a5e4-46fa-b710-4bc32076e820.vm-1035",
+      "Name": "vm33"
+    },
+    "ProtectedVm": {
+      "Identifier": "f7f0835d-a5e4-46fa-b710-4bc32076e820.vm-1035",
+      "Name": "vm33"
+    },
+    "Vpg": {
+      "Identifier": "712a6cc8-a3fe-478c-a874-2eaff93c6adc",
+      "Name": "To-Azure"
+    },
+    "StoragePolicy": {
+      "Identifier": "None",
+      "Name": "Datastore Default"
+    }
+  },
+  {
+    "VolumeType": "Protected",
+    "IsThinProvisioned": false,
+    "VolumeIdentifier": "scsi:0:1",
+    "Path": {
+      "Full": "[SS-VMFS-03] vm33/vm33_1.vmdk",
+      "Relative": "vm33/vm33_1.vmdk",
+      "FileName": "vm33_1.vmdk"
+    },
+    "Size": {
+      "UsedInBytes": 17179869184,
+      "ProvisionedInBytes": 17179869184
+    },
+    "Datastore": {
+      "Identifier": "f7f0835d-a5e4-46fa-b710-4bc32076e820.datastore-1021",
+      "Name": "SS-VMFS-03"
+    },
+    "OwningVm": {
+      "Identifier": "f7f0835d-a5e4-46fa-b710-4bc32076e820.vm-1035",
+      "Name": "vm33"
+    },
+    "ProtectedVm": {
+      "Identifier": "f7f0835d-a5e4-46fa-b710-4bc32076e820.vm-1035",
+      "Name": "vm33"
+    },
+    "Vpg": {
+      "Identifier": "712a6cc8-a3fe-478c-a874-2eaff93c6adc",
+      "Name": "To-Azure"
+    },
+    "StoragePolicy": {
+      "Identifier": "None",
+      "Name": "Datastore Default"
+    }
+  },
+  {
+    "VolumeType": "Protected",
+    "IsThinProvisioned": false,
+    "VolumeIdentifier": "scsi:0:0",
+    "Path": {
+      "Full": "[SS-VMFS-03] win2019-1/win2019-1.vmdk",
+      "Relative": "win2019-1/win2019-1.vmdk",
+      "FileName": "win2019-1.vmdk"
+    },
+    "Size": {
+      "UsedInBytes": 96636764160,
+      "ProvisionedInBytes": 96636764160
+    },
+    "Datastore": {
+      "Identifier": "f7f0835d-a5e4-46fa-b710-4bc32076e820.datastore-1021",
+      "Name": "SS-VMFS-03"
+    },
+    "OwningVm": {
+      "Identifier": "f7f0835d-a5e4-46fa-b710-4bc32076e820.vm-1039",
+      "Name": "win2019-1"
+    },
+    "ProtectedVm": {
+      "Identifier": "f7f0835d-a5e4-46fa-b710-4bc32076e820.vm-1039",
+      "Name": "win2019-1"
+    },
+    "Vpg": {
+      "Identifier": "ea1ec7bc-fb68-481d-a4b7-2fdcb58c0237",
+      "Name": "Local Test"
+    },
+    "StoragePolicy": {
+      "Identifier": "None",
+      "Name": "Datastore Default"
+    }
+  },
+  {
+    "VolumeType": "Protected",
+    "IsThinProvisioned": true,
+    "VolumeIdentifier": "scsi:0:0",
+    "Path": {
+      "Full": "[SS-VMFS-01] ubuntu_2204-ss - 2023-05-15_14-37-47/ubuntu_2204.vmdk",
+      "Relative": "ubuntu_2204-ss - 2023-05-15_14-37-47/ubuntu_2204.vmdk",
+      "FileName": "ubuntu_2204.vmdk"
+    },
+    "Size": {
+      "UsedInBytes": 6956253184,
+      "ProvisionedInBytes": 17179869184
+    },
+    "Datastore": {
+      "Identifier": "f7f0835d-a5e4-46fa-b710-4bc32076e820.datastore-1019",
+      "Name": "SS-VMFS-01"
+    },
+    "OwningVm": {
+      "Identifier": "f7f0835d-a5e4-46fa-b710-4bc32076e820.vm-1042",
+      "Name": "ubuntu_2204-ss - 2023-05-15_14-37-47"
+    },
+    "ProtectedVm": {
+      "Identifier": "f7f0835d-a5e4-46fa-b710-4bc32076e820.vm-1042",
+      "Name": "ubuntu_2204-ss - 2023-05-15_14-37-47"
+    },
+    "Vpg": {
+      "Identifier": "6f03a4f6-3823-4eed-af72-845b0b31169a",
+      "Name": "TO-AWS1"
+    },
+    "StoragePolicy": {
+      "Identifier": "None",
+      "Name": "Datastore Default"
+    }
+  },
+  {
+    "VolumeType": "Appliance",
+    "IsThinProvisioned": false,
+    "VolumeIdentifier": "scsi:0:0",
+    "Path": {
+      "Full": "[SS-VMFS-00] Z-VRA-192.168.50.22_1/Z-VRA-192.168.50.22-754568.vmdk",
+      "Relative": "Z-VRA-192.168.50.22_1/Z-VRA-192.168.50.22-754568.vmdk",
+      "FileName": "Z-VRA-192.168.50.22-754568.vmdk"
+    },
+    "Size": {
+      "UsedInBytes": 2147483648,
+      "ProvisionedInBytes": 2147483648
+    },
+    "Datastore": {
+      "Identifier": "f7f0835d-a5e4-46fa-b710-4bc32076e820.datastore-1018",
+      "Name": "SS-VMFS-00"
+    },
+    "OwningVm": {
+      "Identifier": "f7f0835d-a5e4-46fa-b710-4bc32076e820.vm-2002",
+      "Name": "Z-VRA-192.168.50.22"
+    },
+    "ProtectedVm": null,
+    "Vpg": null,
+    "StoragePolicy": {
+      "Identifier": "None",
+      "Name": "Datastore Default"
+    }
+  },
+  {
+    "VolumeType": "Appliance",
+    "IsThinProvisioned": true,
+    "VolumeIdentifier": "scsi:1:0",
+    "Path": {
+      "Full": "[SS-VMFS-00] Z-VRA-192.168.50.22_1/Z-VRA-192.168.50.22_2.vmdk",
+      "Relative": "Z-VRA-192.168.50.22_1/Z-VRA-192.168.50.22_2.vmdk",
+      "FileName": "Z-VRA-192.168.50.22_2.vmdk"
+    },
+    "Size": {
+      "UsedInBytes": 1048576,
+      "ProvisionedInBytes": 1048576
+    },
+    "Datastore": {
+      "Identifier": "f7f0835d-a5e4-46fa-b710-4bc32076e820.datastore-1018",
+      "Name": "SS-VMFS-00"
+    },
+    "OwningVm": {
+      "Identifier": "f7f0835d-a5e4-46fa-b710-4bc32076e820.vm-2002",
+      "Name": "Z-VRA-192.168.50.22"
+    },
+    "ProtectedVm": null,
+    "Vpg": null,
+    "StoragePolicy": {
+      "Identifier": "None",
+      "Name": "Datastore Default"
+    }
+  },
+  {
+    "VolumeType": "Appliance",
+    "IsThinProvisioned": false,
+    "VolumeIdentifier": "scsi:2:0",
+    "Path": {
+      "Full": "[SS-VMFS-00] Z-VRA-192.168.50.22_1/Z-VRA-192.168.50.22-524932.vmdk",
+      "Relative": "Z-VRA-192.168.50.22_1/Z-VRA-192.168.50.22-524932.vmdk",
+      "FileName": "Z-VRA-192.168.50.22-524932.vmdk"
+    },
+    "Size": {
+      "UsedInBytes": 1073741824,
+      "ProvisionedInBytes": 1073741824
+    },
+    "Datastore": {
+      "Identifier": "f7f0835d-a5e4-46fa-b710-4bc32076e820.datastore-1018",
+      "Name": "SS-VMFS-00"
+    },
+    "OwningVm": {
+      "Identifier": "f7f0835d-a5e4-46fa-b710-4bc32076e820.vm-2002",
+      "Name": "Z-VRA-192.168.50.22"
+    },
+    "ProtectedVm": null,
+    "Vpg": null,
+    "StoragePolicy": {
+      "Identifier": "None",
+      "Name": "Datastore Default"
+    }
+  },
+  {
+    "VolumeType": "Appliance",
+    "IsThinProvisioned": false,
+    "VolumeIdentifier": "scsi:3:0",
+    "Path": {
+      "Full": "[SS-VMFS-00] Z-VRA-192.168.50.22_1/Z-VRA-192.168.50.22.vmdk",
+      "Relative": "Z-VRA-192.168.50.22_1/Z-VRA-192.168.50.22.vmdk",
+      "FileName": "Z-VRA-192.168.50.22.vmdk"
+    },
+    "Size": {
+      "UsedInBytes": 10737418240,
+      "ProvisionedInBytes": 10737418240
+    },
+    "Datastore": {
+      "Identifier": "f7f0835d-a5e4-46fa-b710-4bc32076e820.datastore-1018",
+      "Name": "SS-VMFS-00"
+    },
+    "OwningVm": {
+      "Identifier": "f7f0835d-a5e4-46fa-b710-4bc32076e820.vm-2002",
+      "Name": "Z-VRA-192.168.50.22"
+    },
+    "ProtectedVm": null,
+    "Vpg": null,
+    "StoragePolicy": {
+      "Identifier": "None",
+      "Name": "Datastore Default"
+    }
+  },
+  {
+    "VolumeType": "Appliance",
+    "IsThinProvisioned": false,
+    "VolumeIdentifier": "scsi:0:0",
+    "Path": {
+      "Full": "[SS-VMFS-00] Z-VRAH-192.168.50.22-521503/Z-VRAH-192.168.50.22-521503_1.vmdk",
+      "Relative": "Z-VRAH-192.168.50.22-521503/Z-VRAH-192.168.50.22-521503_1.vmdk",
+      "FileName": "Z-VRAH-192.168.50.22-521503_1.vmdk"
+    },
+    "Size": {
+      "UsedInBytes": 1048576,
+      "ProvisionedInBytes": 1048576
+    },
+    "Datastore": {
+      "Identifier": "f7f0835d-a5e4-46fa-b710-4bc32076e820.datastore-1018",
+      "Name": "SS-VMFS-00"
+    },
+    "OwningVm": {
+      "Identifier": "f7f0835d-a5e4-46fa-b710-4bc32076e820.vm-2003",
+      "Name": "Z-VRAH-192.168.50.22-521503"
+    },
+    "ProtectedVm": null,
+    "Vpg": null,
+    "StoragePolicy": {
+      "Identifier": "None",
+      "Name": "Datastore Default"
+    }
+  },
+  {
+    "VolumeType": "Appliance",
+    "IsThinProvisioned": false,
+    "VolumeIdentifier": "scsi:1:0",
+    "Path": {
+      "Full": "[SS-VMFS-00] Z-VRAH-192.168.50.22-521503/Z-VRAH-192.168.50.22-521503.vmdk",
+      "Relative": "Z-VRAH-192.168.50.22-521503/Z-VRAH-192.168.50.22-521503.vmdk",
+      "FileName": "Z-VRAH-192.168.50.22-521503.vmdk"
+    },
+    "Size": {
+      "UsedInBytes": 1048576,
+      "ProvisionedInBytes": 1048576
+    },
+    "Datastore": {
+      "Identifier": "f7f0835d-a5e4-46fa-b710-4bc32076e820.datastore-1018",
+      "Name": "SS-VMFS-00"
+    },
+    "OwningVm": {
+      "Identifier": "f7f0835d-a5e4-46fa-b710-4bc32076e820.vm-2003",
+      "Name": "Z-VRAH-192.168.50.22-521503"
+    },
+    "ProtectedVm": null,
+    "Vpg": null,
+    "StoragePolicy": {
+      "Identifier": "None",
+      "Name": "Datastore Default"
+    }
+  },
+  {
+    "VolumeType": "Appliance",
+    "IsThinProvisioned": false,
+    "VolumeIdentifier": "scsi:2:0",
+    "Path": {
+      "Full": "[SS-VMFS-00] Z-VRAH-192.168.50.22-521503/Z-VRAH-192.168.50.22-521503_3.vmdk",
+      "Relative": "Z-VRAH-192.168.50.22-521503/Z-VRAH-192.168.50.22-521503_3.vmdk",
+      "FileName": "Z-VRAH-192.168.50.22-521503_3.vmdk"
+    },
+    "Size": {
+      "UsedInBytes": 1048576,
+      "ProvisionedInBytes": 1048576
+    },
+    "Datastore": {
+      "Identifier": "f7f0835d-a5e4-46fa-b710-4bc32076e820.datastore-1018",
+      "Name": "SS-VMFS-00"
+    },
+    "OwningVm": {
+      "Identifier": "f7f0835d-a5e4-46fa-b710-4bc32076e820.vm-2003",
+      "Name": "Z-VRAH-192.168.50.22-521503"
+    },
+    "ProtectedVm": null,
+    "Vpg": null,
+    "StoragePolicy": {
+      "Identifier": "None",
+      "Name": "Datastore Default"
+    }
+  },
+  {
+    "VolumeType": "Appliance",
+    "IsThinProvisioned": false,
+    "VolumeIdentifier": "scsi:3:0",
+    "Path": {
+      "Full": "[SS-VMFS-00] Z-VRAH-192.168.50.22-521503/Z-VRAH-192.168.50.22-521503_2.vmdk",
+      "Relative": "Z-VRAH-192.168.50.22-521503/Z-VRAH-192.168.50.22-521503_2.vmdk",
+      "FileName": "Z-VRAH-192.168.50.22-521503_2.vmdk"
+    },
+    "Size": {
+      "UsedInBytes": 1048576,
+      "ProvisionedInBytes": 1048576
+    },
+    "Datastore": {
+      "Identifier": "f7f0835d-a5e4-46fa-b710-4bc32076e820.datastore-1018",
+      "Name": "SS-VMFS-00"
+    },
+    "OwningVm": {
+      "Identifier": "f7f0835d-a5e4-46fa-b710-4bc32076e820.vm-2003",
+      "Name": "Z-VRAH-192.168.50.22-521503"
+    },
+    "ProtectedVm": null,
+    "Vpg": null,
+    "StoragePolicy": {
+      "Identifier": "None",
+      "Name": "Datastore Default"
+    }
+  },
+  {
+    "VolumeType": "Appliance",
+    "IsThinProvisioned": false,
+    "VolumeIdentifier": "scsi:0:0",
+    "Path": {
+      "Full": "[SS-VMFS-00] Z-VRA-192.168.50.21_1/Z-VRA-192.168.50.21-232281.vmdk",
+      "Relative": "Z-VRA-192.168.50.21_1/Z-VRA-192.168.50.21-232281.vmdk",
+      "FileName": "Z-VRA-192.168.50.21-232281.vmdk"
+    },
+    "Size": {
+      "UsedInBytes": 2147483648,
+      "ProvisionedInBytes": 2147483648
+    },
+    "Datastore": {
+      "Identifier": "f7f0835d-a5e4-46fa-b710-4bc32076e820.datastore-1018",
+      "Name": "SS-VMFS-00"
+    },
+    "OwningVm": {
+      "Identifier": "f7f0835d-a5e4-46fa-b710-4bc32076e820.vm-2001",
+      "Name": "Z-VRA-192.168.50.21"
+    },
+    "ProtectedVm": null,
+    "Vpg": null,
+    "StoragePolicy": {
+      "Identifier": "None",
+      "Name": "Datastore Default"
+    }
+  },
+  {
+    "VolumeType": "Appliance",
+    "IsThinProvisioned": true,
+    "VolumeIdentifier": "scsi:1:0",
+    "Path": {
+      "Full": "[SS-VMFS-00] Z-VRA-192.168.50.21_1/Z-VRA-192.168.50.21_2.vmdk",
+      "Relative": "Z-VRA-192.168.50.21_1/Z-VRA-192.168.50.21_2.vmdk",
+      "FileName": "Z-VRA-192.168.50.21_2.vmdk"
+    },
+    "Size": {
+      "UsedInBytes": 1048576,
+      "ProvisionedInBytes": 1048576
+    },
+    "Datastore": {
+      "Identifier": "f7f0835d-a5e4-46fa-b710-4bc32076e820.datastore-1018",
+      "Name": "SS-VMFS-00"
+    },
+    "OwningVm": {
+      "Identifier": "f7f0835d-a5e4-46fa-b710-4bc32076e820.vm-2001",
+      "Name": "Z-VRA-192.168.50.21"
+    },
+    "ProtectedVm": null,
+    "Vpg": null,
+    "StoragePolicy": {
+      "Identifier": "None",
+      "Name": "Datastore Default"
+    }
+  },
+  {
+    "VolumeType": "Appliance",
+    "IsThinProvisioned": false,
+    "VolumeIdentifier": "scsi:2:0",
+    "Path": {
+      "Full": "[SS-VMFS-00] Z-VRA-192.168.50.21_1/Z-VRA-192.168.50.21-623411.vmdk",
+      "Relative": "Z-VRA-192.168.50.21_1/Z-VRA-192.168.50.21-623411.vmdk",
+      "FileName": "Z-VRA-192.168.50.21-623411.vmdk"
+    },
+    "Size": {
+      "UsedInBytes": 1073741824,
+      "ProvisionedInBytes": 1073741824
+    },
+    "Datastore": {
+      "Identifier": "f7f0835d-a5e4-46fa-b710-4bc32076e820.datastore-1018",
+      "Name": "SS-VMFS-00"
+    },
+    "OwningVm": {
+      "Identifier": "f7f0835d-a5e4-46fa-b710-4bc32076e820.vm-2001",
+      "Name": "Z-VRA-192.168.50.21"
+    },
+    "ProtectedVm": null,
+    "Vpg": null,
+    "StoragePolicy": {
+      "Identifier": "None",
+      "Name": "Datastore Default"
+    }
+  },
+  {
+    "VolumeType": "Appliance",
+    "IsThinProvisioned": false,
+    "VolumeIdentifier": "scsi:3:0",
+    "Path": {
+      "Full": "[SS-VMFS-00] Z-VRA-192.168.50.21_1/Z-VRA-192.168.50.21.vmdk",
+      "Relative": "Z-VRA-192.168.50.21_1/Z-VRA-192.168.50.21.vmdk",
+      "FileName": "Z-VRA-192.168.50.21.vmdk"
+    },
+    "Size": {
+      "UsedInBytes": 10737418240,
+      "ProvisionedInBytes": 10737418240
+    },
+    "Datastore": {
+      "Identifier": "f7f0835d-a5e4-46fa-b710-4bc32076e820.datastore-1018",
+      "Name": "SS-VMFS-00"
+    },
+    "OwningVm": {
+      "Identifier": "f7f0835d-a5e4-46fa-b710-4bc32076e820.vm-2001",
+      "Name": "Z-VRA-192.168.50.21"
+    },
+    "ProtectedVm": null,
+    "Vpg": null,
+    "StoragePolicy": {
+      "Identifier": "None",
+      "Name": "Datastore Default"
+    }
+  },
+  {
+    "VolumeType": "Appliance",
+    "IsThinProvisioned": false,
+    "VolumeIdentifier": "scsi:0:0",
+    "Path": {
+      "Full": "[SS-VMFS-00] Z-VRAH-192.168.50.21-697150/Z-VRAH-192.168.50.21-697150_1.vmdk",
+      "Relative": "Z-VRAH-192.168.50.21-697150/Z-VRAH-192.168.50.21-697150_1.vmdk",
+      "FileName": "Z-VRAH-192.168.50.21-697150_1.vmdk"
+    },
+    "Size": {
+      "UsedInBytes": 1048576,
+      "ProvisionedInBytes": 1048576
+    },
+    "Datastore": {
+      "Identifier": "f7f0835d-a5e4-46fa-b710-4bc32076e820.datastore-1018",
+      "Name": "SS-VMFS-00"
+    },
+    "OwningVm": {
+      "Identifier": "f7f0835d-a5e4-46fa-b710-4bc32076e820.vm-2005",
+      "Name": "Z-VRAH-192.168.50.21-697150"
+    },
+    "ProtectedVm": null,
+    "Vpg": null,
+    "StoragePolicy": {
+      "Identifier": "None",
+      "Name": "Datastore Default"
+    }
+  },
+  {
+    "VolumeType": "Appliance",
+    "IsThinProvisioned": false,
+    "VolumeIdentifier": "scsi:1:0",
+    "Path": {
+      "Full": "[SS-VMFS-00] Z-VRAH-192.168.50.21-697150/Z-VRAH-192.168.50.21-697150.vmdk",
+      "Relative": "Z-VRAH-192.168.50.21-697150/Z-VRAH-192.168.50.21-697150.vmdk",
+      "FileName": "Z-VRAH-192.168.50.21-697150.vmdk"
+    },
+    "Size": {
+      "UsedInBytes": 1048576,
+      "ProvisionedInBytes": 1048576
+    },
+    "Datastore": {
+      "Identifier": "f7f0835d-a5e4-46fa-b710-4bc32076e820.datastore-1018",
+      "Name": "SS-VMFS-00"
+    },
+    "OwningVm": {
+      "Identifier": "f7f0835d-a5e4-46fa-b710-4bc32076e820.vm-2005",
+      "Name": "Z-VRAH-192.168.50.21-697150"
+    },
+    "ProtectedVm": null,
+    "Vpg": null,
+    "StoragePolicy": {
+      "Identifier": "None",
+      "Name": "Datastore Default"
+    }
+  },
+  {
+    "VolumeType": "Appliance",
+    "IsThinProvisioned": false,
+    "VolumeIdentifier": "scsi:2:0",
+    "Path": {
+      "Full": "[SS-VMFS-00] Z-VRAH-192.168.50.21-697150/Z-VRAH-192.168.50.21-697150_3.vmdk",
+      "Relative": "Z-VRAH-192.168.50.21-697150/Z-VRAH-192.168.50.21-697150_3.vmdk",
+      "FileName": "Z-VRAH-192.168.50.21-697150_3.vmdk"
+    },
+    "Size": {
+      "UsedInBytes": 1048576,
+      "ProvisionedInBytes": 1048576
+    },
+    "Datastore": {
+      "Identifier": "f7f0835d-a5e4-46fa-b710-4bc32076e820.datastore-1018",
+      "Name": "SS-VMFS-00"
+    },
+    "OwningVm": {
+      "Identifier": "f7f0835d-a5e4-46fa-b710-4bc32076e820.vm-2005",
+      "Name": "Z-VRAH-192.168.50.21-697150"
+    },
+    "ProtectedVm": null,
+    "Vpg": null,
+    "StoragePolicy": {
+      "Identifier": "None",
+      "Name": "Datastore Default"
+    }
+  },
+  {
+    "VolumeType": "Appliance",
+    "IsThinProvisioned": false,
+    "VolumeIdentifier": "scsi:3:0",
+    "Path": {
+      "Full": "[SS-VMFS-00] Z-VRAH-192.168.50.21-697150/Z-VRAH-192.168.50.21-697150_2.vmdk",
+      "Relative": "Z-VRAH-192.168.50.21-697150/Z-VRAH-192.168.50.21-697150_2.vmdk",
+      "FileName": "Z-VRAH-192.168.50.21-697150_2.vmdk"
+    },
+    "Size": {
+      "UsedInBytes": 1048576,
+      "ProvisionedInBytes": 1048576
+    },
+    "Datastore": {
+      "Identifier": "f7f0835d-a5e4-46fa-b710-4bc32076e820.datastore-1018",
+      "Name": "SS-VMFS-00"
+    },
+    "OwningVm": {
+      "Identifier": "f7f0835d-a5e4-46fa-b710-4bc32076e820.vm-2005",
+      "Name": "Z-VRAH-192.168.50.21-697150"
+    },
+    "ProtectedVm": null,
+    "Vpg": null,
+    "StoragePolicy": {
+      "Identifier": "None",
+      "Name": "Datastore Default"
+    }
+  },
+  {
+    "VolumeType": "Recovery",
+    "IsThinProvisioned": true,
+    "VolumeIdentifier": "scsi:0:2",
+    "Path": {
+      "Full": "[SS-VMFS-02] Z-VRA-192.168.50.22/bf115d7af2424/vm1045/VM-Win-02_3.vmdk",
+      "Relative": "Z-VRA-192.168.50.22/bf115d7af2424/vm1045/VM-Win-02_3.vmdk",
+      "FileName": "VM-Win-02_3.vmdk"
+    },
+    "Size": {
+      "UsedInBytes": 28258074624,
+      "ProvisionedInBytes": 96636764160
+    },
+    "Datastore": {
+      "Identifier": "f7f0835d-a5e4-46fa-b710-4bc32076e820.datastore-1020",
+      "Name": "SS-VMFS-02"
+    },
+    "OwningVm": {
+      "Identifier": "f7f0835d-a5e4-46fa-b710-4bc32076e820.vm-2003",
+      "Name": "Z-VRAH-192.168.50.22-521503"
+    },
+    "ProtectedVm": {
+      "Identifier": "f7f0835d-a5e4-46fa-b710-4bc32076e820.vm-1045",
+      "Name": "VM-Win-02"
+    },
+    "Vpg": {
+      "Identifier": "46de9fbc-aa6b-444e-93b6-f0b9b774fcdd",
+      "Name": "testvpg"
+    },
+    "StoragePolicy": {
+      "Identifier": "None",
+      "Name": "Datastore Default"
+    }
+  },
+  {
+    "VolumeType": "Recovery",
+    "IsThinProvisioned": true,
+    "VolumeIdentifier": "scsi:0:8",
+    "Path": {
+      "Full": "[SS-VMFS-01] Z-VRA-192.168.50.22/bf115d7af2424/vm2033/ad1.vmdk",
+      "Relative": "Z-VRA-192.168.50.22/bf115d7af2424/vm2033/ad1.vmdk",
+      "FileName": "ad1.vmdk"
+    },
+    "Size": {
+      "UsedInBytes": 35615932416,
+      "ProvisionedInBytes": 96636764160
+    },
+    "Datastore": {
+      "Identifier": "f7f0835d-a5e4-46fa-b710-4bc32076e820.datastore-1019",
+      "Name": "SS-VMFS-01"
+    },
+    "OwningVm": {
+      "Identifier": "f7f0835d-a5e4-46fa-b710-4bc32076e820.vm-2003",
+      "Name": "Z-VRAH-192.168.50.22-521503"
+    },
+    "ProtectedVm": {
+      "Identifier": "f7f0835d-a5e4-46fa-b710-4bc32076e820.vm-2033",
+      "Name": "ad1(1)"
+    },
+    "Vpg": {
+      "Identifier": "58f5285d-add8-486c-ba8b-007e8a66eae7",
+      "Name": "local"
+    },
+    "StoragePolicy": {
+      "Identifier": "None",
+      "Name": "Datastore Default"
+    }
+  },
+  {
+    "VolumeType": "Recovery",
+    "IsThinProvisioned": true,
+    "VolumeIdentifier": "scsi:0:6",
+    "Path": {
+      "Full": "[SS-VMFS-01] Z-VRA-192.168.50.22/bf115d7af2424/vm2033/ad1_1.vmdk",
+      "Relative": "Z-VRA-192.168.50.22/bf115d7af2424/vm2033/ad1_1.vmdk",
+      "FileName": "ad1_1.vmdk"
+    },
+    "Size": {
+      "UsedInBytes": 1048576,
+      "ProvisionedInBytes": 10485760
+    },
+    "Datastore": {
+      "Identifier": "f7f0835d-a5e4-46fa-b710-4bc32076e820.datastore-1019",
+      "Name": "SS-VMFS-01"
+    },
+    "OwningVm": {
+      "Identifier": "f7f0835d-a5e4-46fa-b710-4bc32076e820.vm-2003",
+      "Name": "Z-VRAH-192.168.50.22-521503"
+    },
+    "ProtectedVm": {
+      "Identifier": "f7f0835d-a5e4-46fa-b710-4bc32076e820.vm-2033",
+      "Name": "ad1(1)"
+    },
+    "Vpg": {
+      "Identifier": "58f5285d-add8-486c-ba8b-007e8a66eae7",
+      "Name": "local"
+    },
+    "StoragePolicy": {
+      "Identifier": "None",
+      "Name": "Datastore Default"
+    }
+  },
+  {
+    "VolumeType": "Recovery",
+    "IsThinProvisioned": true,
+    "VolumeIdentifier": "scsi:0:4",
+    "Path": {
+      "Full": "[SS-VMFS-02] Z-VRA-192.168.50.22/bf115d7af2424/vm1039/win2019-1.vmdk",
+      "Relative": "Z-VRA-192.168.50.22/bf115d7af2424/vm1039/win2019-1.vmdk",
+      "FileName": "win2019-1.vmdk"
+    },
+    "Size": {
+      "UsedInBytes": 22107127808,
+      "ProvisionedInBytes": 96636764160
+    },
+    "Datastore": {
+      "Identifier": "f7f0835d-a5e4-46fa-b710-4bc32076e820.datastore-1020",
+      "Name": "SS-VMFS-02"
+    },
+    "OwningVm": {
+      "Identifier": "f7f0835d-a5e4-46fa-b710-4bc32076e820.vm-2003",
+      "Name": "Z-VRAH-192.168.50.22-521503"
+    },
+    "ProtectedVm": {
+      "Identifier": "f7f0835d-a5e4-46fa-b710-4bc32076e820.vm-1039",
+      "Name": "win2019-1"
+    },
+    "Vpg": {
+      "Identifier": "ea1ec7bc-fb68-481d-a4b7-2fdcb58c0237",
+      "Name": "Local Test"
+    },
+    "StoragePolicy": {
+      "Identifier": "None",
+      "Name": "Datastore Default"
+    }
+  }
+]
